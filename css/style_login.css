@@ -1,0 +1,174 @@
+/***************************/
+/********** LOGIN **********/
+/***************************/
+body {
+	background:url('../images/page_bg.jpg');
+}
+.login-box	{ 
+	width: 600px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin: 0px auto;  
+	background: url('../images/bck_black_10.png'); 
+	margin-top: 100px; 
+	padding: 10px; 
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+}
+
+.login-border	{ 
+	border: 1px solid #cccccc; 
+	background: url('../images/bck_white_50.png');
+}
+.login-style	{ 
+	border: 3px solid #FFFFFF;
+	background:url('../images/login.jpg') center center no-repeat;
+}
+.login-header	{ 
+	height: 95px; 
+	background: url('../images/login_header.png') center bottom no-repeat; 
+	padding: 15px 15px 0px 15px; 
+}
+.login-header .logo	{ 
+	width: auto; margin: 0px; 
+	padding-top: 0px; 
+}
+.login-header .logo .title	{ 
+	width: 400px; 
+}
+.login-header .logo .text	{ 
+	width: 400px; 
+	color: #333333; 
+}
+.login-inside	{ height: 200px; 
+	padding-top: 35px; 
+	border-bottom: 1px solid #627603; 
+	font-weight:bold;
+	
+}
+.login-inside p	{ text-align: center; 
+	padding-bottom: 10px; 
+}
+.login-data		{ 
+	width: 310px; 
+	padding: 40px 0px 35px 0px; 
+	background: url('../images/bck_white_50.png'); 
+	margin: 0px auto; 
+	-moz-border-radius: 3px 3px 3px 3px; 
+	-webkit-border-radius: 3px 3px 3px 3px; 
+	border-radius: 3px 3px 3px 3px; 
+	margin-bottom : 20px; 
+}
+.login-data label { display: block; 
+	width: 80px; 
+	float: left; 
+	line-height: 22px; 
+	text-align: right; 
+	margin-right: 
+	10px; 
+}
+.login-data .row	{ 
+	padding-bottom: 10px; 
+}
+.login-data .submit	{ 
+	margin-left: 90px; 
+}
+/*
+.login-footer .remember		{ 
+	color: #FFFFFF; 
+	line-height: 22px; 
+	display: block; 
+	float: left; 
+	font-weight: bold; 
+}
+.login-footer .remember label	{ 
+	margin-left: 3px; 
+}
+.login-footer a	{ 
+	color: #FFFFFF; 
+	text-decoration: none; 
+	background: url('../images/bck_white_20.png'); 
+	font-size: 11px; 
+	font-weight: bold; 
+	display: block; 
+	padding: 0px 15px 0px 15px; 
+	line-height: 22px;
+}
+.login-footer a:hover { 
+	color: #FFFFFF; 
+	text-decoration: none; 
+	background: url('../images/bck_white_30.png');
+}
+
+*/
+input[type='text'], input[type='password'], input[type='email'], input[type='file']
+{
+width: 200px;
+border: 1px solid #CCC;
+padding: 5px;
+margin-bottom:4px;
+    /*Applying CSS 3radius*/   
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    /*Applying CSS3 box shadow*/
+    -moz-box-shadow: 0 0 2px #DDDDDD;
+    -webkit-box-shadow: 0 0 2px #DDDDDD;
+    box-shadow: 0 0 2px #DDDDDD;
+
+}
+
+input[type='text']:hover, input[type='password']:hover, input[type='email']:hover, input[type='file']:hover
+{
+width: 200px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 5px;
+box-shadow: 1px 1px 5px #CCC;
+background-color:#F9F9F9;
+opacity:.80;
+}
+input[type="text"]:focus
+{
+    box-shadow:0 0 2px #04BDCD;
+}
+a.button, input.button {
+	background-color: #68b12f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+	background: -webkit-linear-gradient(top, #68b12f, #50911e);
+	background: -moz-linear-gradient(top, #68b12f, #50911e);
+	background: -ms-linear-gradient(top, #68b12f, #50911e);
+	background: -o-linear-gradient(top, #68b12f, #50911e);
+	background: linear-gradient(top, #68b12f, #50911e);
+	border: 1px solid #509111;
+	border-bottom: 1px solid #5b992b;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #9fd574;
+	-webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+	-moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-o-box-shadow: 0 1px 0 0 #9fd574 inset;
+	color: white;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #396715;
+}
+a.button:hover, input.button:hover {
+	opacity:.80;
+	cursor: pointer; 
+}
+a.button:active, input.button:active {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset; 
+	-webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+	-moz-box-shadow: 0 0 10px 5px #356b0b inset;
+	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
+	-o-box-shadow: 0 0 10px 5px #356b0b inset;
+}

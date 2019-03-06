@@ -1,0 +1,119 @@
+/* base */
+
+body{
+	font:1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #222222;
+	color: #383E4B;
+	margin:0;
+	padding:0;
+}       
+  
+#wrapper {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	background-color: #ffffff;
+	min-height: 100%;
+}
+  
+#header {
+	background-color:#EE8310;
+	padding: 0px;
+  margin: 0px;       
+}          
+
+#content {
+  font-size: 80%;
+	width:82%;
+	float:left;
+	margin-left:30px;
+	min-height:100%;
+}
+#content p {
+	line-height: 1.8em;
+	padding-left: 2em;
+}
+#menu {
+  position: relative;
+  float: left;
+  width: 180px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	width: 180px;
+	margin: 0;
+	padding: 5px 0px 0px 0px;
+	font-size: 90%;
+	vertical-align: bottom; 
+	background-color: #3A3633;
+	color: #FFFFFF;
+	border-bottom: 1px solid #2C2927;
+}
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	background-color: #3A3633;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #2C2927;
+	color: #FFFFFF;
+	padding-left:13px;
+	color:#EE8310;
+}
+#footer{
+  clear :both;
+	padding: 20px 0 10px 0px;
+	font-size: 70%;
+	color: #FFFFFF;
+	background-color: #BE1E2D;
+	text-align:center;
+}
+
+a:link,a:visited {
+  color: #0092c8;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+h2 {   
+	font-size: 1.3em;
+	line-height: 200%;
+	border-bottom: 1px dotted #003366;
+}
+
+table {
+	font-family: "Segoe UI", Frutiger,Tahoma,Helvetica,"Helvetica Neue", Arial, sans-serif;
+	font-size: 1.0em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-collapse: collapse;
+	margin: 20px 0px 0px 25px;
+}
+caption {margin: 0 0 .5em; font-size: 1.2em; color: #383E4B; }
+th{
+	font-size: 1.0em;
+	text-align: center;
+	padding: 0.5em;
+	background-color: #DBEAF9;
+	border: 1px solid #dddddd;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-collapse: collapse;
+}            
+
+         

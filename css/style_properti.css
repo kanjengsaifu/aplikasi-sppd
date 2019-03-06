@@ -1,0 +1,139 @@
+.table2 {
+    font-family: "Segoe UI", Frutiger,Tahoma,Helvetica,"Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0em;
+    border:none;
+    margin: 20px 0px 0px 0px;
+    background-color:#fff;
+}
+.table2 td{
+    padding: 0.1em;
+    vertical-align: top;
+    border:none;
+}            
+/*CSS for dropdown box*/
+select
+{
+/*width: 200px;*/
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+select: hover
+{
+width: 200px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+/*CSS for input textbox and password*/
+
+input[type='text'], input[type='password'], input[type='email'], input[type='file']
+{
+/*width: 300px;*/
+border: 1px solid #CCC;
+padding: 5px;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+    /*Applying CSS 3radius*/   
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    /*Applying CSS3 box shadow*/
+    -moz-box-shadow: 0 0 2px #DDDDDD;
+    -webkit-box-shadow: 0 0 2px #DDDDDD;
+    box-shadow: 0 0 2px #DDDDDD;
+
+}
+
+input[type='text']:hover, input[type='password']:hover, input[type='email']:hover, input[type='file']:hover
+{
+/*width: 300px;*/
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 5px;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+input[type="text"]:focus
+{
+    box-shadow:0 0 2px #04BDCD;
+}
+
+/*CSS for textarea*/
+
+textarea
+{
+width: 400px;
+height: 90px;
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+textarea:hover
+{
+width: 400px;
+height: 90px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+/*input type for submit button*/
+table {
+    font-family: "Segoe UI", Frutiger,Tahoma,Helvetica,"Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-collapse: collapse;
+    margin: 20px 0px 0px 0px;
+	background:#FFF;
+}
+caption {margin: 0 0 .5em; font-size: 1.2em; color: #383E4B; }
+.table tr:nth-child(odd) td {
+	background-color:#EEEADD;
+}
+
+th{
+    font-size: 1.0em;
+    text-align: center;
+    border: 1px solid #dddddd;
+    text-transform: capitalize;
+    text-align: center;
+    background-color:#605CA8;
+	color:#FFF;
+}
+td{
+    padding: 0.1em;
+    vertical-align: top;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-collapse: collapse;
+}            
+h2 {   
+    font-size: 1.3em;
+    line-height: 200%;
+    border-bottom: 1px dotted #003366;
+}

@@ -1,0 +1,20 @@
+Untuk Menginstal Aplikasi : 
+
+Buat database dengan nama : p_sppd.v3
+import database yang disertakan 
+
+Login operator : 
+username : admin
+password : admin2
+
+Login Kepala Bagian (kabag) : 
+username : kabag
+password : kabag1
+
+Login pegawai : 
+username dan password sesuai dengan nip pegawai yang dapat dilihat di datapegawai 
+
+Untuk Mengubah Cop.. Silahkan lihat cetak.php dibagian masing-masing modul
+
+Terimakasih
+
