@@ -47,12 +47,13 @@ body {
                          ?>
     <form name="form" action="mail.php" method="POST">
           <div class="form-group has-feedback">
-            <input type="text" class="form-control" placeholder="Email" name="email">
+            <input type="text" class="form-control" placeholder="Email" name="email" required>
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
           </div>
         
          
               <button type="submit" class="btn btn-primary btn-block btn-flat">Reset Password</button>
+              <a href="index.php" class="btn btn-success btn-block btn-flat">Kembali Ke Login</a>
            
         </form>
 

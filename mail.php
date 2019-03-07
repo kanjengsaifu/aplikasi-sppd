@@ -32,32 +32,14 @@ if(empty($email) == FALSE)
 	mysql_query("UPDATE admins SET password = '$password_baru' WHERE email = '$_POST[email]'");
 	
 	// jika email ditemukan, maka kirim password ke email
-	$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
-try {
-    //Server settings
-    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
-    $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.mail.yahoo.com';  // Specify main and backup SMTP servers
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'bp3ap2kb@yahoo.com';                 // SMTP username
-    $mail->Password = 'daviddwi96';                           // SMTP password
-    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 465;                                    // TCP port to connect to
+	// the message
+    $msg = "Password Baru Anda Sudah Siap Digunakan. Password Baru Anda Adalah <b>'.$password_baru.'</b>.";
 
-    //Recipients
-    $mail->setFrom('bp3ap2kb@yahoo.com', 'Admin BP3AP2KB');
-    // $mail->addAddress($email['email'], $email['username']);
-    $mail->addAddress('egodasa@hotmail.com', $email['username']);
+    // use wordwrap() if lines are longer than 70 characters
+    $msg = wordwrap($msg,70);
 
-    //Content
-    $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Lupa Password';
-    $mail->Body    = 'Password Baru Anda Sudah Siap Digunakan. Password Baru Anda Adalah <b>'.$password_baru.'</b>.';
-
-    $mail->send();
-} catch (Exception $e) {
-    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
-}
+    // send email
+    mail($_POST['email'],"Lupa Password", $msg);
 }
 header("Location: lupapassword.php?log=1");
 ?>

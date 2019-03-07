@@ -209,7 +209,7 @@ include "config/fungsi_indotgl.php";
               </a>
               <ul class="treeview-menu">
                 <li><a href="?module=ttdkwitansi"><i class="fa fa-circle-o"></i>TTD Kwitansi</a></li>
-                <li><a href="?module=password"><i class="fa fa-circle-o"></i>Password</a></li>
+                <li><a href="?module=password"><i class="fa fa-circle-o"></i>Email & Password</a></li>
               </ul>
             </li>
             <li><a href="logout.php" onClick="return confirm('Anda Yakin Ingin Keluar')"><i class="fa fa-book"></i> <span>Logout</span></a></li>
@@ -263,7 +263,7 @@ include "config/fungsi_indotgl.php";
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="?module=password"><i class="fa fa-circle-o"></i>Password</a></li>
+                <li><a href="?module=password"><i class="fa fa-circle-o"></i>Email & Password</a></li>
               </ul>
             </li>
             <li><a href="logout.php" onClick="return confirm('Anda Yakin Ingin Keluar')"><i class="fa fa-book"></i> <span>Logout</span></a></li>

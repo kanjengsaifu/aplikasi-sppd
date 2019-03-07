@@ -1,0 +1,2 @@
+[06-Mar-2019 08:55:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[06-Mar-2019 08:55:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8

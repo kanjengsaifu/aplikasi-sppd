@@ -84,11 +84,10 @@ body {
               <option value="user">Pegawai</option>
           </select>
           </div>
-          <div class="row">
-            <div class="col-xs-4">
+          
               <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
-            </div><!-- /.col -->
-          </div>
+              <a href="lupapassword.php" class="btn btn-success btn-block btn-flat">Lupa Password</a>
+            
         </form>
 
       </div><!-- /.login-box-body -->

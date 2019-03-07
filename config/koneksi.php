@@ -1,8 +1,8 @@
 <?php
 $server = "localhost";
-$username = "root";
-$password = "mysql";
-$database = "db_sppd";
+$username = "mandanon_sppd";
+$password = "qwe123*IOP";
+$database = "mandanon_sppd";
 
 // Koneksi dan memilih database di server
 mysql_connect($server,$username,$password) or die("Koneksi gagal");

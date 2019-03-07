@@ -1,0 +1,6 @@
+[06-Mar-2019 08:52:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[06-Mar-2019 08:52:35 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_biaya/aksi_biaya.php on line 5
+[06-Mar-2019 08:52:35 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_biaya/aksi_biaya.php on line 6
+[06-Mar-2019 08:54:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[06-Mar-2019 08:54:12 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_biaya/aksi_biaya.php on line 5
+[06-Mar-2019 08:54:12 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_biaya/aksi_biaya.php on line 6
