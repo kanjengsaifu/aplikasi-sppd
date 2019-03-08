@@ -2,7 +2,7 @@
 $aksi="modul/mod_lpd/aksi_lpd.php";
 $print ="modul/mod_lpd/cetak.php";
 
-switch($_GET[act]){
+switch($_GET['act']){
   // Tampil lpd
   default:
   echo   "<h2>LAPORAN PERJALANAN DINAS</h2>";
@@ -37,8 +37,9 @@ switch($_GET[act]){
     echo "</tbody></table>";
     break;
   case "tambahlpd":
-  	$t=mysql_fetch_array(mysql_query("SELECT * FROM pegawai,jabatan,PANGKAT WHERE jabatan.id_jabatan=pegawai.id_jabatan AND pangkat.id_pangkat=pegawai.id_pangkat 
-	AND pegawai.id_pegawai='$_SESSION[id_pegawai]'"));
+      
+  	$t=mysql_fetch_array(mysql_query("SELECT * FROM pegawai,jabatan,pangkat WHERE jabatan.id_jabatan=pegawai.id_jabatan AND pangkat.id_pangkat=pegawai.id_pangkat 
+	AND pegawai.id_pegawai='".$_SESSION['id_pegawai']."'"));
     echo "<h2>BUAT LAPORAN PERJALANAN DINAS</h2>
 		  <form method=POST action='$aksi?module=lpd&act=input'>
           <table width=50% style=\"background-color: #333333\">
