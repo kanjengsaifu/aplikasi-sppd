@@ -14,24 +14,79 @@ switch($_GET['act']){
             <tr>
                 <th>No</th>
                 <th>Nama Pegawai Yang Diperintahkan</th>
+                <th>Pangkat</th>
+                <th>Jabatan</th>
+                <th>Keterangan</th>
                 <!-- <th>No SPT</th> -->
                 <th>Hasil</th>
                 <!-- <th>Tanggal</th> -->
                 <th>aksi</th>
             </tr>
           </thead>"; 
-    $no=0;
+    $no_data=1;
 	echo "<tbody>";
-      $tampil = mysql_query("SELECT * FROM lpd,pegawai,spt WHERE lpd.id_pegawai=pegawai.id_pegawai 
-	  AND lpd.id_spt=spt.id_spt");
+      $tampil = mysql_query("SELECT * FROM lpd JOIN spt ON lpd.id_spt = spt.id_spt JOIN nppt ON spt.id_nppt = nppt.id_nppt JOIN tujuan ON nppt.id_tujuan = tujuan.id_tujuan");
     while ($t=mysql_fetch_array($tampil)){
 		$tanggal = tgl_indo($t['tanggal']);
-		$no++;
 	   echo "</td>
-	   		<td style=\"background-color: #333333\">$no</td>
-			<td style=\"background-color: #333333\">$t[nama]</td>
+	   		<td style=\"background-color: #333333\">$no_data</td>";
+	   		
+	   		// Kolom nama pegawau
+		// ambil data pegawai per nppt 
+		echo "<td style='background-color: #333333;'>";
+		$no_pegawai = 1;
+		// daftar pegawai
+		$data_pegawai = mysql_query("SELECT detail_nppt.id_pegawai, pegawai.nama, pangkat.pangkat, jabatan.jabatan FROM detail_nppt 
+			JOIN pegawai ON detail_nppt.id_pegawai = pegawai.id_pegawai 
+			JOIN pangkat ON pegawai.id_pangkat = pangkat.id_pangkat 
+			JOIN jabatan ON pegawai.id_jabatan = jabatan.id_jabatan WHERE detail_nppt.id_nppt = $t[id_nppt] ORDER BY detail_nppt.status_perintah ASC");
+		while($pegawai = mysql_fetch_array($data_pegawai)){
+			// detail pangkat dll
+			echo "$no_pegawai. $pegawai[nama] <br/>";
+			$no_pegawai++;
+		}
+		echo "</td>";
+		// akhir dari kolom pegawai
 			
-			<!-- <td style=\"background-color: #333333\">$t[no_spt]</td> -->
+		// Kolom nama pangkat
+		// ambil data pegawai per nppt 
+		echo "<td style='background-color: #333333;'>";
+		$no_pegawai = 1;
+		// daftar pegawai
+		$data_pegawai = mysql_query("SELECT detail_nppt.id_pegawai, pegawai.nama, pangkat.pangkat, jabatan.jabatan FROM detail_nppt 
+			JOIN pegawai ON detail_nppt.id_pegawai = pegawai.id_pegawai 
+			JOIN pangkat ON pegawai.id_pangkat = pangkat.id_pangkat 
+			JOIN jabatan ON pegawai.id_jabatan = jabatan.id_jabatan WHERE detail_nppt.id_nppt = $t[id_nppt] ORDER BY detail_nppt.status_perintah ASC");
+		while($pegawai = mysql_fetch_array($data_pegawai)){
+			// detail pangkat dll
+			echo "$no_pegawai. $pegawai[pangkat] <br/>";
+			$no_pegawai++;
+		}
+		echo "</td>";
+		// akhir dari kolom pangkat	
+	    
+	    // Kolom nama jabatan
+		// ambil data pegawai per nppt 
+		echo "<td style='background-color: #333333;'>";
+		$no_pegawai = 1;
+		// daftar pegawai
+		$data_pegawai = mysql_query("SELECT detail_nppt.id_pegawai, pegawai.nama, pangkat.pangkat, jabatan.jabatan FROM detail_nppt 
+			JOIN pegawai ON detail_nppt.id_pegawai = pegawai.id_pegawai 
+			JOIN pangkat ON pegawai.id_pangkat = pangkat.id_pangkat 
+			JOIN jabatan ON pegawai.id_jabatan = jabatan.id_jabatan WHERE detail_nppt.id_nppt = $t[id_nppt] ORDER BY detail_nppt.status_perintah ASC");
+		while($pegawai = mysql_fetch_array($data_pegawai)){
+			// detail pangkat dll
+			echo "$no_pegawai. $pegawai[jabatan] <br/>";
+			$no_pegawai++;
+		}
+		echo "</td>";
+		// akhir dari kolom jabatan
+	    
+	    echo "<td style=\"background-color: #333333\">
+	    Telah melaksanakan Perjalanan Dinas dalam rangka $t[tugas], berdasarkan Surat Perintah Tugas Nomor : $t[no_spt] , dari tanggal ".tgl_indo($t['tgl_pergi'])." s/d ".tgl_indo($t['tgl_kembali'])." di $t[tujuan]
+	    </td>";
+	    
+		echo "<!-- <td style=\"background-color: #333333\">$t[no_spt]</td> -->
 		     <td style=\"background-color: #333333\">$t[hasil]</td>
 			<!-- <td style=\"background-color: #333333\">$tanggal</td> -->
              <td align='center' style=\"background-color: #333333\"><a href=$print?&id=$t[id_lpd]><img src=\"images/printer.png\" title=\"Cetak\" target=\"_blank\"/></a>";
@@ -41,7 +96,7 @@ switch($_GET['act']){
 			 ";
 		}
 		echo "</td></tr>";
-      $no++;
+      $no_data++;
     }
     echo "</tbody></table>";
     break;

@@ -41,3 +41,21 @@
 [06-Mar-2019 15:00:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
 [06-Mar-2019 15:00:05 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 5
 [06-Mar-2019 15:00:05 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 6
+[08-Mar-2019 14:25:45 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 14:25:45 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 5
+[08-Mar-2019 14:25:45 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 6
+[08-Mar-2019 14:25:51 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 14:25:51 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 5
+[08-Mar-2019 14:25:51 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 6
+[08-Mar-2019 14:25:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 14:25:54 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 5
+[08-Mar-2019 14:25:54 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 6
+[08-Mar-2019 14:25:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 14:25:56 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 5
+[08-Mar-2019 14:25:56 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 6
+[08-Mar-2019 14:25:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 14:25:58 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 5
+[08-Mar-2019 14:25:58 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 6
+[08-Mar-2019 14:45:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 14:45:44 UTC] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 5
+[08-Mar-2019 14:45:44 UTC] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_kwitansi/aksi_kwitansi.php on line 6

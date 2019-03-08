@@ -12,9 +12,22 @@ switch($_GET[act]){
           ";
     echo "
     <table id=\"example1\" class=\"table table-bordered table-hover\">
-          <thead><tr><th>No</th><th>Nama</th>
-		  <th>Pangkat</th><th>Jabatan</th>
-		  <th>Pejabat Perintah</th><th>No SPT</th><th>Diperintahkan Untuk</th></th><th>Dasar Surat Perintah</th><th>Tempat</th><th>Dasar Pembebanan Anggaran</th><th>aksi</th><th>SPPD</th></tr></thead>"; 
+          <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+		        <th>Pangkat</th>
+		        <th>Jabatan</th>
+		        <th>Pejabat Perintah</th>
+		        <th>No SPT</th>
+		        <th>Diperintahkan Untuk</th>
+		        </th><th>Dasar Surat Perintah</th>
+		        <th>Tempat</th>
+		        <th>Dasar Pembebanan Anggaran</th>
+		        <th>aksi</th>
+		        <th>SPPD</th>
+		      </tr>
+		  </thead>"; 
      $no=1;
 	echo "<tbody>";
 	
@@ -103,7 +116,7 @@ echo "
   }
   else {
   $tampil = mysql_query("SELECT * FROM spt,nppt WHERE spt.id_nppt=nppt.id_nppt AND spt.id_pegawai LIKE '%$_SESSION[id_pegawai]%'");
-  echo   "<h2>SURAT PERINTAH TUGAS</h2>
+  echo   "<h2>INPUT LAPORAN</h2>
   		  <table id=\"example1\" class=\"table table-bordered table-hover\">
           <thead>
             <tr>
@@ -115,6 +128,7 @@ echo "
                 <th>T.Kembali</th>
 		        <th>Lama</th>
 		        -->
+		        <th>Maksud Perjalanan Dinas</th>
 		        <th>Laporan</th>
 		    </tr>
 		  </thead>"; 
@@ -132,6 +146,7 @@ echo "
 			 <td style=\"background-color: #333333\">$r[tgl_kembali]</td>
 			 <td style=\"background-color: #333333\">$r[lama] hari</td>
 			 -->
+			 <td style=\"background-color: #333333\">$r[tugas]</td>
 			 <td style=\"background-color: #333333\">";
 			 $cek=mysql_num_rows(mysql_query("SELECT * FROM lpd WHERE id_spt='$r[id_spt]'"));
 			 if ($cek > 0 ) {

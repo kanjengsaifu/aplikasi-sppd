@@ -16,3 +16,36 @@
 [08-Mar-2019 11:58:52 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
 [08-Mar-2019 11:58:52 Asia/Jakarta] PHP Notice:  Undefined index: id_pangkat in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
 [08-Mar-2019 11:58:52 Asia/Jakarta] PHP Notice:  Undefined index: id_jabatan in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
+[08-Mar-2019 14:09:30 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 14:21:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:21:20 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:21:20 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 14:21:25 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:21:25 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:21:25 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 14:21:30 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:21:30 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:21:30 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 14:21:35 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:21:35 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:21:35 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 14:21:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:21:46 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:21:46 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 14:22:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:22:02 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:22:02 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 14:50:06 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:50:06 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:50:06 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 21:50:06 Asia/Jakarta] PHP Notice:  Undefined index: id_pangkat in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
+[08-Mar-2019 21:50:06 Asia/Jakarta] PHP Notice:  Undefined index: id_jabatan in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
+[08-Mar-2019 14:50:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:50:34 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:50:34 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 14:53:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 21:53:05 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 21:53:05 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 21:53:05 Asia/Jakarta] PHP Notice:  Undefined index: id_pangkat in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
+[08-Mar-2019 21:53:05 Asia/Jakarta] PHP Notice:  Undefined index: id_jabatan in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
+[08-Mar-2019 14:53:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
