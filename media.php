@@ -291,7 +291,7 @@ include "config/fungsi_indotgl.php";
               </ul>---->
               <li class="treeview">
               <a href="#">
-                <i class="fa fa-share"></i> <span>SPT</span>
+                <i class="fa fa-share"></i> <span>Input Laporan</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">

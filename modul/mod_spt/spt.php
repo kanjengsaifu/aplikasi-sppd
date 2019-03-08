@@ -105,20 +105,33 @@ echo "
   $tampil = mysql_query("SELECT * FROM spt,nppt WHERE spt.id_nppt=nppt.id_nppt AND spt.id_pegawai LIKE '%$_SESSION[id_pegawai]%'");
   echo   "<h2>SURAT PERINTAH TUGAS</h2>
   		  <table id=\"example1\" class=\"table table-bordered table-hover\">
-          <thead><tr><th>No</th><th>No SPT</th><th>Tugas</th><th>T.Pergi</th><th>T.Kembali</th>
-		  <th>Lama</th><th>Laporan</th></tr></thead>"; 
+          <thead>
+            <tr>
+                <th>No</th>
+                <!--
+                <th>No SPT</th>
+                <th>Tugas</th>
+                <th>T.Pergi</th>
+                <th>T.Kembali</th>
+		        <th>Lama</th>
+		        -->
+		        <th>Laporan</th>
+		    </tr>
+		  </thead>"; 
     $no=0;
 	echo "<tbody>";
     while ($r=mysql_fetch_array($tampil)){
 		$no++;
 	  echo "<tr>
 	  		 <td style=\"background-color: #333333\">$no</td>
+	  		 <!--
 	  		 <td style=\"background-color: #333333\">$r[no_spt]</td>
 		     <td style=\"background-color: #333333\">$r[tugas]</td>
 			 
 			 <td style=\"background-color: #333333\">$r[tgl_pergi]</td>
 			 <td style=\"background-color: #333333\">$r[tgl_kembali]</td>
 			 <td style=\"background-color: #333333\">$r[lama] hari</td>
+			 -->
 			 <td style=\"background-color: #333333\">";
 			 $cek=mysql_num_rows(mysql_query("SELECT * FROM lpd WHERE id_spt='$r[id_spt]'"));
 			 if ($cek > 0 ) {

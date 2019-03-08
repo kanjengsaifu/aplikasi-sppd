@@ -10,7 +10,16 @@ switch($_GET['act']){
          // onclick=\"window.location.href='?module=lpd&act=tambahlpd';\">";
     echo "
     <table id=\"example1\" class=\"table table-bordered table-hover\">
-          <thead><tr><th>No</th><th>Nama Pegawai Yang Diperintahkan</th><th>No SPT</th><th>Hasil</th><th>Tanggal</th><th>aksi</th></tr></thead>"; 
+          <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Pegawai Yang Diperintahkan</th>
+                <!-- <th>No SPT</th> -->
+                <th>Hasil</th>
+                <!-- <th>Tanggal</th> -->
+                <th>aksi</th>
+            </tr>
+          </thead>"; 
     $no=0;
 	echo "<tbody>";
       $tampil = mysql_query("SELECT * FROM lpd,pegawai,spt WHERE lpd.id_pegawai=pegawai.id_pegawai 
@@ -22,9 +31,9 @@ switch($_GET['act']){
 	   		<td style=\"background-color: #333333\">$no</td>
 			<td style=\"background-color: #333333\">$t[nama]</td>
 			
-			<td style=\"background-color: #333333\">$t[no_spt]</td>
+			<!-- <td style=\"background-color: #333333\">$t[no_spt]</td> -->
 		     <td style=\"background-color: #333333\">$t[hasil]</td>
-			 <td style=\"background-color: #333333\">$tanggal</td>
+			<!-- <td style=\"background-color: #333333\">$tanggal</td> -->
              <td align='center' style=\"background-color: #333333\"><a href=$print?&id=$t[id_lpd]><img src=\"images/printer.png\" title=\"Cetak\" target=\"_blank\"/></a>";
 		if($_SESSION['level']!="kabag") {
 		echo "<a href=?module=lpd&act=editlpd&id=$t[id_lpd]><img src=\"images/edit.png\" title=\"Edit\"/></a>

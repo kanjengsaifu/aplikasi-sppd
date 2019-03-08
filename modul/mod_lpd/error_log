@@ -6,3 +6,13 @@
 [06-Mar-2019 13:29:53 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
 [06-Mar-2019 20:29:53 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
 [06-Mar-2019 20:29:53 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 04:48:32 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 11:48:32 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 11:48:32 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 11:48:32 Asia/Jakarta] PHP Notice:  Undefined index: id_pangkat in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
+[08-Mar-2019 11:48:32 Asia/Jakarta] PHP Notice:  Undefined index: id_jabatan in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
+[08-Mar-2019 04:58:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/mandanon/sppd.mandan.online/config/koneksi.php on line 8
+[08-Mar-2019 11:58:52 Asia/Jakarta] PHP Notice:  Use of undefined constant module - assumed 'module' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 5
+[08-Mar-2019 11:58:52 Asia/Jakarta] PHP Notice:  Use of undefined constant act - assumed 'act' in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 6
+[08-Mar-2019 11:58:52 Asia/Jakarta] PHP Notice:  Undefined index: id_pangkat in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
+[08-Mar-2019 11:58:52 Asia/Jakarta] PHP Notice:  Undefined index: id_jabatan in /home/mandanon/sppd.mandan.online/modul/mod_lpd/aksi_lpd.php on line 14
